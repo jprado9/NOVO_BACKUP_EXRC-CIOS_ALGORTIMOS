@@ -1,0 +1,16 @@
+Funcao media2(n1,n2:real):real
+inicio
+
+retorne (n1+n2)/2
+
+FimFuncao
+
+Procedimento suce_ante(n:inteiro)
+var
+s,a: inteiro
+inicio
+s <- n + 1
+a <- n - 1
+EscrevaL("O sucessor de ", n," é ",s)
+EscrevaL("O antecessor de ", n," é ",a)
+FimProcedimento
